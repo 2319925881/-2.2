@@ -1,0 +1,140 @@
+body{margin: 0;}
+a{
+	text-decoration: none;
+}
+.content{
+	background: #252A2F;
+	}
+
+.header-left{
+	float:left;
+	margin-top: 2em;
+	margin-left: 6em;
+	}
+	
+.header-right{
+	float: right;
+	width: 50%;
+}
+.top-nav ul li{
+	display:inline-block;
+}
+.top-nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 2.2em 1.2em 1.6em 1.2em;
+	display: block;
+	font-size: 0.95em;
+	transition:0.5s all;
+}
+.top-nav ul li a:hover{
+	color:#FFF;
+	background: #9B59B6;
+}
+.top-nav ul li.active>a{
+	color:#FFF;
+	background: #9B59B6;
+}
+.top-nav{	float:left;
+}
+.footer {
+	background: #252A2F;
+}
+
+.footer p{
+	margin: 0;
+	text-align: center;
+	padding: 1.85em 1em;
+	color:#9B59B6;
+	font-size:1em;
+}
+.clear{clear: both;}
+
+
+.about-title
+{
+	margin: 0 0;
+	color: #FFF;
+	background: #9B59B6;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 0.6em 0em;
+}
+.sign_up
+{
+	float:left;
+	margin: 10px 0px;
+}
+.sign_up a{
+	color: #FFF;
+	font-size: 1em;
+	transition: all 0.3s;
+	border-radius: 5px;
+	background: #9B59B6;
+	padding: 13px 40px;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+}
+.sign_up input[type="submit"]:hover
+{
+	background:#45BDBE;
+}
+.hover li a,ul.bar li a{
+	font-size: 0.85em;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	color: limegreen;	
+	font-weight:600;
+	transition: all 0.3s;
+	display: block;
+	padding: 0.6em 0em;
+}
+.hover li{
+	list-style: none;
+}
+.bar li a:hover
+{
+	color: #AA48D3;
+}
+.hover
+{
+	margin: 0 5em 0 0;
+	transition: all 0.3s;
+}
+.hover:hover
+{
+	background: #485460;
+	color:#red;
+	border-radius: 5px;
+	margin-left: 1em;
+}
+
+
+
+/*搞笑动漫吃鸡*/
+.float-lt{
+	background-image:url(../images/bd_bg.jpg);
+	margin: 0 0;
+	font: inherit;
+	vertical-align: baseline;
+	display: block;
+	text-align: left;
+	padding: 4%;
+	}
+.fot_pic{
+	float:left;
+	width: 40%;
+	margin: 5em 0 5em 5em;
+}
+.fot_pic img{
+	width: 400px;
+	border-radius: 5px;
+}
+.fot_text{
+	margin: 0 5em 0 0;
+	float:right;
+	width: 45%;
+}
+
+/*国防军事*/

@@ -1,0 +1,104 @@
+body {
+    background:url("../images/bg.jpg");	
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+h1 {
+	font-size: 52px;
+	font-weight: 800;
+    text-align: center;
+	letter-spacing: 3px;/*字间距为3px*/
+	padding: 37px 0px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px rgba(16, 16, 16, 0.57);
+	font-family: 'Montserrat', sans-serif;
+}
+form {
+    padding-bottom: 28px;
+}
+.signup{
+	margin: 20px auto;
+}
+h2 {
+	font:inherit;
+	vertical-align:baseline;
+    text-align: center;
+	color:#E0D7D7;
+	font-size: 23px;
+    letter-spacing: 2px;/*字间距为2px*/
+	padding: 10px 0px;
+	font-weight: 600;
+}
+.name,.email,.pass1,.pass2 {
+    padding: 7px 10px;
+	border: 0px solid rgba(22, 14, 12, 0.2);
+    margin: 19px 0px;
+	background-color:rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.name:hover,.email:hover,.pass1:hover,.pass2:hover {
+    background: aliceblue;
+}
+.form-content {
+	width: 33%;
+	padding: 37px;
+    margin:10px auto;
+	font-family: 'Montserrat', sans-serif;
+	border: 0px solid #EEE7E7;
+	background-color:rgba(1,1,1,0.5);
+}
+label {
+    width: 35%;
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 2px; /*字间距为2px*/
+    color: #fff7f7;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0px;
+    text-align: center;
+	margin-right:7px;
+}
+input.input1 {
+    border: none;
+    outline: none;
+	width: 62%;
+	padding: 10px 0px;
+	background: none;
+	color:#463c3c;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;/*字间距为1px*/
+	font-weight: 600;
+}
+input.input1:focus {
+    border-bottom: 1px solid #FFFFFF;
+}
+input[type="button"] {
+    width: 100%;
+    padding: 19px 0px;
+	background-color:#d30505;
+	border: none;
+    outline: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+    letter-spacing: 1px;/*字间距为1px*/
+    font-size: 17px;
+	transition: 0.7s;/*鼠标放在按钮上，按钮的颜色在0.7s内完成变色*/
+	color: #ffffff;
+	cursor: pointer;/*当鼠标在按钮上时，把三角鼠标变成手指头鼠标*/
+}
+input[type="button"]:hover {
+	background-color:#3E3737;
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+body{margin: 0;}
+
+a{text-decoration:none;}
+
+.clear{clear: both;}
+
+img{max-width:100%;}
+
+.content{
+	z-index: 1;
+	}
+
+.header-left{
+	float:left;
+	margin-top: 1em;
+	margin-left: 6em;
+	}
+	
+.header-right{
+	float: right;
+	width: 50%;
+}
+.top-nav ul li{
+	display:inline-block;
+}
+.top-nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 2.2em 1.2em 1.6em 1.2em;
+	display: block;
+	font-size: 0.95em;
+	transition:0.5s all;
+}
+.top-nav ul li a:hover{
+	color:#FFF;
+	background: #9B59B6;
+}
+.top-nav ul li.active>a{
+	color:#FFF;
+	background: #9B59B6;
+}
+.top-nav{	float:left;
+}
+.main {
+	margin-top: 3em;
+	padding-bottom: 3em;
+}
+.main_left
+{
+	padding-left: 10em;
+	float:left;
+	width:35%;
+}
+.main_left h2{
+	color:#fff;
+	font-size: 3em;
+	font-weight:bold;
+	text-shadow: 0px 0px 1px #FFF;
+}
+.main_left p{
+	line-height: 2px;
+	color:#fff;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 1em 0em;
+}
+.main_right
+{
+	padding-right: 9em;
+	float:right;
+	width:40%;
+	padding-top: 5em;
+}
+.main_right span
+{
+	width: 550px;
+	height:351px;
+	display: block;
+	
+}
+.buttons
+{
+	margin-top: 2em;
+}
+.sign_up 
+{
+	float:left;
+	margin-left: 1em;
+}
+.sign_up a{
+	color: #FFF;
+	font-size: 1em;
+	transition: all 0.3s;
+	border-radius: 5px;
+	background: #9B59B6;
+	padding: 13px 40px;
+}
+.arrow_btn {
+	display: block;
+	background: url(../images/arrow_btnh1.png) no-repeat 148px 9px;
+	padding: 0px 26px 0px 9px;
+	color: #FFF;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.arrow_btn:hover{
+	background: url(../images/arrow_btn1.png) no-repeat 148px 9px;
+	text-decoration: none;
+	color:#9B59B6;
+}
+
+.grids {
+	background: #9B59B6;
+	padding: 4em 5em 3em 5em;
+	position:relative;
+}
+.grid1{
+	margin-top: 2em;
+	padding-top: 2em;
+	position:relative;
+}
+.grid1 label{
+	background: #ECECEC;
+	height: 1px;
+	display: block;
+	position: absolute;
+	top: -16px;
+	width: 94%;
+}
+.grid{
+	width: 31.9%;
+	float: left;
+	margin-right: 2%;
+	text-align: center;
+	padding-bottom: 3em;
+}
+.grid:nth-child(3){
+	margin-right:0;
+	border-right:0;
+}
+.grid  h3 a{
+	font-size: 1.1em;
+	color: #fff;
+	padding:1.5em 0 0.5em 0;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.grid p{
+	text-indent: 2em;
+	text-align: left;
+	color: #fff;
+	line-height: 1.6em;
+	font-size: 0.9em;
+	padding: 0.6em 0em;
+}
+
+
+.footer {
+	background: #252A2F;
+}
+
+.footer p{
+	margin: 0;
+	text-align: center;
+	padding: 1.85em 1em;
+	color:#9B59B6;
+	font-size:1em;
+}
+
+canvas{
+	background-color: black;
+		z-index: -1;
+	}
